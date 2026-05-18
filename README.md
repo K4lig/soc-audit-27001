@@ -6,21 +6,21 @@
 
 > A formal Internal Audit Report evaluating the effectiveness of security monitoring controls, log aggregation, and SIEM integration within a virtualized enterprise data center.
 
-## 📋 1. Project Overview
+## 1. Project Overview
 This project simulates an internal IT audit acting under the purview of an Information Security Management System (ISMS). The objective is to verify compliance with ISO/IEC 27001:2022 logging and monitoring controls, identify operational blind spots, and issue actionable non-conformities (findings) to IT and SOC management.
 
-## 🏢 2. Business Scenario
+## 2. Business Scenario
 The audit focuses on an organization utilizing a virtualized infrastructure cluster (VMware) hosting critical internal applications. The security architecture relies on a centralized SIEM (Wazuh) for threat detection and incident response. 
 
 **The Audit Focus:** Assessing whether all critical servers are properly generating, protecting, and forwarding authentication and system logs to the centralized SIEM, ensuring the SOC has full visibility over the environment.
 
-## 🔑 3. Key ISO 27001:2022 Controls Audited
+## 3. Key ISO 27001:2022 Controls Audited
 The assessment evaluates compliance against the following Annex A controls:
 * **A.8.15** Logging (Event, fault, and security logging)
 * **A.8.16** Monitoring activities (Continuous system and network monitoring)
 * **A.8.17** Clock synchronization (NTP configuration for accurate log correlation)
 
-## 💡 4. Skills Demonstrated
+## 4. Skills Demonstrated
 ### Governance & IT Audit
 * **Audit Execution:** Planning, scoping, and executing an IT security audit.
 * **Finding Drafting:** Writing clear, professional non-conformities (Condition, Criteria, Cause, Risk, Recommendation).
